@@ -2,6 +2,14 @@
 import streamlit as st  # For creating the interactive UI
 import pandas as pd  # For handling financial data
 
+st.markdown("""
+    <style>
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+        header {visibility: hidden;}
+    </style>
+""", unsafe_allow_html=True)
+
 # 📌 App Title and Description
 st.title("📈 Stock Portfolio Analyzer")  # App heading
 st.write("Upload your stock transaction CSV file to analyze your investment portfolio.")  # Short description
