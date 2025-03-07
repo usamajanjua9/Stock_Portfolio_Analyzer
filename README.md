@@ -1,4 +1,4 @@
-```md
+
 # 📈 Stock Portfolio Analyzer
 
 A **Streamlit-based web application** that allows users to **upload stock transaction data** and gain insights into **total investment, current portfolio value, and profit/loss**.
